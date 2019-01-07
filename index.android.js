@@ -103,7 +103,7 @@ export default class AwesomeProject extends React.Component {
           style={styles.preview}
           aspect={this.state.aspect}
           captureQuality={this.state.captureQuality}
-          country="us"
+          country="eu"
           onPlateRecognized={this.onPlateRecognized}
           plateOutlineColor={this.state.color}
           showPlateOutline={this.state.showBorder}

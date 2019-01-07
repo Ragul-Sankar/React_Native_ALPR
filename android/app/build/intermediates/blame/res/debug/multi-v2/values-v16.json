@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Project\\Example\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "F:\\react-native-openalpr-master\\Example\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ragul\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2b49c7b66121bb792df92e3b1200085f\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ragul\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\d81d2fd46b10c9f81bbcde7f27ce31f6\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ragul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a4c7bebb3d3c61fe0bc39d8c4f287946\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ragul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8a0e2524d3fd711649054da47644d19a\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

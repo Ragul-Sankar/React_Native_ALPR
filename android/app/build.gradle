@@ -83,13 +83,13 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.awesomeproject"
-        minSdkVersion 19
-        targetSdkVersion 26
+        minSdkVersion 16
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         ndk {
@@ -128,7 +128,7 @@ android {
 dependencies {
     compile project(':react-native-openalpr')
     compile fileTree(dir: "libs", include: ["*.jar"])
-    compile "com.android.support:appcompat-v7:26.0.2"
+    compile "com.android.support:appcompat-v7:28.0.0"
     compile "com.facebook.react:react-native:+"  // From node_modules
 }
 
