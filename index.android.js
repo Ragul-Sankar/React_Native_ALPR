@@ -82,7 +82,7 @@ export default class AwesomeProject extends React.Component {
   }
 
   onPlateRecognized = ({ plate, confidence }) => {
-    if (confidence > 90) {
+    if (confidence > 80) {
       this.setState({
         plate,
       })
