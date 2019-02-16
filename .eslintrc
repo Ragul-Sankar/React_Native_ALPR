@@ -1,0 +1,7 @@
+{
+    "plugins": [ "react", "react-native" ],
+    "extends": [ "plugin:react-native/all" ],
+    "parser": "babel-eslint",
+    "parserOptions": { "ecmaFeatures": { "jsx": true, "modules": true } },
+    "env": { "react-native/react-native": true }
+}

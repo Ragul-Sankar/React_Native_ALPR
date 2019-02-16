@@ -1,238 +1,117 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
-MERGED from [:react-native-openalpr] E:\Example\node_modules\react-native-openalpr\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8a0e2524d3fd711649054da47644d19a\AndroidManifest.xml:17:1-22:12
-MERGED from [:openalpr] E:\Example\node_modules\react-native-openalpr\android\libraries\openalpr\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-13:12
-MERGED from [:opencv] E:\Example\node_modules\react-native-openalpr\android\libraries\opencv\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f97929da369e0e743dce2bdc31102bcc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a0599c55ac66723e614b7a8fc8458cbb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d4f227abbbbffc80ffce5d6834c08b36\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3c72ab87cf18a0bd0da73e5eb7a766d7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\96ad86686de97772db63b1e4919de0f2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d9838d1457e0861ac5ea7be3cd0724ce\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\7fe9a7064c4e5c6420ead74062c84c92\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e5fdfcb76c43c60c9d1483bb27c3b667\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6f4dcb08a1f8c1ecbd0a17dd5d3f3301\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\0e21c4fcf59f7196a492c701b3353656\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2601a17b5ee14981e3da582f2e7d8b5e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\a51a6e91812d47f91d919e100e5faed1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f5d7a2b7bcc7a1cd3afba0d5a9e1cf3f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d81d2fd46b10c9f81bbcde7f27ce31f6\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8a47b02b5614cb8afd0a5331bcbebf77\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bdb012278d9987f2225f4eed4e4dac82\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\143ab593546b807833ca53868d27f979\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a9113755ec5c07be3d0c55e73e5c93b9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\8a6fd9f08fdc9c0c51d130ec2ab4bbb0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\07cdd1cdbde0ed0ad15402dc00e06350\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1cdb01401c0b5c5c55feb17726bbda03\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\27f801545f009034694dfed71517c950\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58861638abd3cea4e2194822d8027b85\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5d18bfa10c60df6ffbc47f51f5dbc5d3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\6b3187aa8fdacd2be1331d6fbff8b3ca\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\86e44d037965a7100e24755e5c50b2fc\AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\50a1497fb808fb4e15301c77e795a466\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\457e50d0369985a2773163596a5b45da\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\3a2a462f5458744a235c402a7a4ca68b\AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d42f53cb1cd6b10ed6776a3972aec414\AndroidManifest.xml:1:1-3:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\af97a4dd3f04b0084f47b35a9f5e65d3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\b5e95bac7c1d54c2a069c54fbb25841f\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\14390c27acc0e6ba96abcc5677afd2e3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\b09f4978f2259553eb845d45670279d1\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:1:1-42:12
 	package
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:2:5-33
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:2:5-22
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:3:5-28
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:11:5-78
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:7:22-75
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:7:22-75
 uses-permission#android.permission.CAMERA
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:9:5-65
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:9:22-62
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:9:22-62
 uses-feature#android.hardware.camera
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:11:5-13:32
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:11:5-13:32
 	android:required
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:13:5-29
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:13:5-29
 	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:12:5-43
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:12:5-43
 uses-feature#android.hardware.camera.autofocus
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:14:5-16:32
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:14:5-16:32
 	android:required
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:16:5-29
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:16:5-29
 	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:15:5-53
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:15:5-53
 uses-permission#android.permission.FLASHLIGHT
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:18:5-69
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:18:5-69
 	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:18:22-66
-application
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:22:5-38:19
-MERGED from [:react-native-openalpr] E:\Example\node_modules\react-native-openalpr\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-20
-MERGED from [:react-native-openalpr] E:\Example\node_modules\react-native-openalpr\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:13:5-20
-MERGED from [:openalpr] E:\Example\node_modules\react-native-openalpr\android\libraries\openalpr\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-20
-MERGED from [:openalpr] E:\Example\node_modules\react-native-openalpr\android\libraries\openalpr\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d81d2fd46b10c9f81bbcde7f27ce31f6\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d81d2fd46b10c9f81bbcde7f27ce31f6\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8a47b02b5614cb8afd0a5331bcbebf77\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8a47b02b5614cb8afd0a5331bcbebf77\AndroidManifest.xml:22:5-23:19
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\3a2a462f5458744a235c402a7a4ca68b\AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\3a2a462f5458744a235c402a7a4ca68b\AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d42f53cb1cd6b10ed6776a3972aec414\AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d42f53cb1cd6b10ed6776a3972aec414\AndroidManifest.xml:2:3-17
-	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d81d2fd46b10c9f81bbcde7f27ce31f6\AndroidManifest.xml:22:18-91
-	android:label
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:25:7-39
-	android:icon
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:26:7-41
-	android:allowBackup
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:24:7-33
-	android:theme
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:27:7-38
-	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:23:7-38
-activity#com.awesomeproject.MainActivity
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:28:7-36:18
-	android:label
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:30:9-41
-	android:configChanges
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:31:9-79
-	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:29:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:32:9-35:25
-action#android.intent.action.MAIN
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:33:13-65
-	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:33:21-62
-category#android.intent.category.LAUNCHER
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:34:13-73
-	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:34:23-70
-activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:37:7-84
-	android:name
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml:37:17-81
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:18:22-66
 uses-sdk
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-openalpr] E:\Example\node_modules\react-native-openalpr\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-openalpr] E:\Example\node_modules\react-native-openalpr\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cae5af9e3a788b2f41af877bc22eaf00\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8a0e2524d3fd711649054da47644d19a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8a0e2524d3fd711649054da47644d19a\AndroidManifest.xml:20:5-44
-MERGED from [:openalpr] E:\Example\node_modules\react-native-openalpr\android\libraries\openalpr\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:openalpr] E:\Example\node_modules\react-native-openalpr\android\libraries\openalpr\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:opencv] E:\Example\node_modules\react-native-openalpr\android\libraries\opencv\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:opencv] E:\Example\node_modules\react-native-openalpr\android\libraries\opencv\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f97929da369e0e743dce2bdc31102bcc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f97929da369e0e743dce2bdc31102bcc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a0599c55ac66723e614b7a8fc8458cbb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a0599c55ac66723e614b7a8fc8458cbb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d4f227abbbbffc80ffce5d6834c08b36\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\d4f227abbbbffc80ffce5d6834c08b36\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3c72ab87cf18a0bd0da73e5eb7a766d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3c72ab87cf18a0bd0da73e5eb7a766d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\96ad86686de97772db63b1e4919de0f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\96ad86686de97772db63b1e4919de0f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d9838d1457e0861ac5ea7be3cd0724ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d9838d1457e0861ac5ea7be3cd0724ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\7fe9a7064c4e5c6420ead74062c84c92\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\7fe9a7064c4e5c6420ead74062c84c92\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e5fdfcb76c43c60c9d1483bb27c3b667\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e5fdfcb76c43c60c9d1483bb27c3b667\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6f4dcb08a1f8c1ecbd0a17dd5d3f3301\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\6f4dcb08a1f8c1ecbd0a17dd5d3f3301\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\0e21c4fcf59f7196a492c701b3353656\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\0e21c4fcf59f7196a492c701b3353656\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2601a17b5ee14981e3da582f2e7d8b5e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2601a17b5ee14981e3da582f2e7d8b5e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\a51a6e91812d47f91d919e100e5faed1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\a51a6e91812d47f91d919e100e5faed1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f5d7a2b7bcc7a1cd3afba0d5a9e1cf3f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f5d7a2b7bcc7a1cd3afba0d5a9e1cf3f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d81d2fd46b10c9f81bbcde7f27ce31f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\d81d2fd46b10c9f81bbcde7f27ce31f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8a47b02b5614cb8afd0a5331bcbebf77\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8a47b02b5614cb8afd0a5331bcbebf77\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bdb012278d9987f2225f4eed4e4dac82\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\bdb012278d9987f2225f4eed4e4dac82\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\143ab593546b807833ca53868d27f979\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\143ab593546b807833ca53868d27f979\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a9113755ec5c07be3d0c55e73e5c93b9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a9113755ec5c07be3d0c55e73e5c93b9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\8a6fd9f08fdc9c0c51d130ec2ab4bbb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\8a6fd9f08fdc9c0c51d130ec2ab4bbb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\07cdd1cdbde0ed0ad15402dc00e06350\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\07cdd1cdbde0ed0ad15402dc00e06350\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1cdb01401c0b5c5c55feb17726bbda03\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1cdb01401c0b5c5c55feb17726bbda03\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\27f801545f009034694dfed71517c950\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\27f801545f009034694dfed71517c950\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58861638abd3cea4e2194822d8027b85\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58861638abd3cea4e2194822d8027b85\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5d18bfa10c60df6ffbc47f51f5dbc5d3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5d18bfa10c60df6ffbc47f51f5dbc5d3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\6b3187aa8fdacd2be1331d6fbff8b3ca\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\6b3187aa8fdacd2be1331d6fbff8b3ca\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\86e44d037965a7100e24755e5c50b2fc\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\86e44d037965a7100e24755e5c50b2fc\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\50a1497fb808fb4e15301c77e795a466\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\50a1497fb808fb4e15301c77e795a466\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\457e50d0369985a2773163596a5b45da\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\457e50d0369985a2773163596a5b45da\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\3a2a462f5458744a235c402a7a4ca68b\AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\3a2a462f5458744a235c402a7a4ca68b\AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\af97a4dd3f04b0084f47b35a9f5e65d3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\af97a4dd3f04b0084f47b35a9f5e65d3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\b5e95bac7c1d54c2a069c54fbb25841f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\b5e95bac7c1d54c2a069c54fbb25841f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\14390c27acc0e6ba96abcc5677afd2e3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\14390c27acc0e6ba96abcc5677afd2e3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\b09f4978f2259553eb845d45670279d1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Ragul\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\b09f4978f2259553eb845d45670279d1\AndroidManifest.xml:5:5-7:41
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:20:5-22:41
+MERGED from [pws:react-native-openalpr:unspecified] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\pws\react-native-openalpr\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.SandroMachado:openalpr:unspecified] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.github.SandroMachado\openalpr\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [pws:opencv:unspecified] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\pws\opencv\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\AndroidManifest.xml:2:3-70
 	android:targetSdkVersion
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:22:9-38
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\Example\android\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Example\android\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from E:\Example\android\app\src\main\AndroidManifest.xml:1:1-40:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:21:9-35
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:24:5-40:19
+MERGED from [pws:react-native-openalpr:unspecified] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\pws\react-native-openalpr\unspecified\AndroidManifest.xml:12:5-20
+MERGED from [com.github.SandroMachado:openalpr:unspecified] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.github.SandroMachado\openalpr\unspecified\AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] F:\OpenALPR-library-master\android\app\build\intermediates\exploded-aar\org.webkit\android-jsc\r174650\AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:27:7-39
+	android:allowBackup
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:26:7-33
+	android:icon
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:28:7-41
+	android:theme
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:29:7-38
+	android:name
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:25:7-38
+activity#com.pws.MainActivity
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:30:7-38:18
+	android:label
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:32:9-41
+	android:configChanges
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:33:9-79
+	android:name
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:31:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:34:9-37:25
+action#android.intent.action.MAIN
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:35:13-65
+	android:name
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:35:21-62
+category#android.intent.category.LAUNCHER
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:36:13-73
+	android:name
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:36:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:39:7-84
+	android:name
+		ADDED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:39:17-81
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:1:1-42:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:1:1-42:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\OpenALPR-library-master\android\app\src\main\AndroidManifest.xml:1:1-42:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
